@@ -4,7 +4,7 @@ import { Swatch } from '@site/src/components/Swatch';
 
 Each of your scenes requires a background image that defines how that scene should look. You can add backgrounds to your game by including PNG files in your project's `assets/backgrounds` folder.
 
-## Color Requirements
+## Requisitos de color
 
 Background PNGs must only contain the following four colors:
 
@@ -19,7 +19,7 @@ Download the GB Studio Palette Swatches for:
 
 Colors that are not one of the above hex codes will be matched to the nearest color. Unlike sprites, the color `#65ff00` can not be used in backgrounds.
 
-## Size Requirements
+## Requisitos de tamaño
 
 - Backgrounds are divided into `8px`x `8px` tilesets so the total image size must be a multiple of `8px` in both width and height.
 - A background has a minimum size of `160px` x `144px` (the GB screen size)
